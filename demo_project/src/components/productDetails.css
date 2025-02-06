@@ -1,0 +1,10 @@
+.detail-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+ .detail-card img {
+  width: 150px;
+  height: 200px;
+} 
