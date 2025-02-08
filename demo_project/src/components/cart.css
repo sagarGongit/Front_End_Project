@@ -1,19 +1,27 @@
-.cart{
+.cart-process {
   display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  align-items: top;
 }
 .cart > div {
   width: 400px;
-  height: 500px;
-  margin-top: 30px;
+  height: auto;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   padding: 10px;
+  text-align: center;
   margin-bottom: 20px;
 }
 .cart > div img {
   width: 200px;
   height: 300px;
+  margin: auto;
 }
-.quantity-box{
-  display: flex;
-  align-items: center;
-  gap:5px;
+.cart > div button {
+  margin-left: 10px;
+}
+.close_btn {
+  font-size: 30px;
+  cursor: pointer;
 }

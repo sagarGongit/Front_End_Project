@@ -14,6 +14,7 @@ const Home = () => {
             <Text fontSize={"sm"}>
               Please feel free to shopping your sefety is our duty 🔏!
             </Text>
+            <Text fontSize={"30px"}>Explore more 👉🏻</Text>
           </VStack>
         </Box>
         <Box>

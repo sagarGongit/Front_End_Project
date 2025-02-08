@@ -1,5 +1,6 @@
 import { AuthContext } from "../contextapi/AuthContext";
 import { Box, Button, Input, Text, VStack } from "@chakra-ui/react";
+
 import axios from "axios";
 import "./signin.css";
 import { Form, Formik } from "formik";
@@ -70,7 +71,11 @@ const Signin = () => {
                 type="password"
                 required
               />
-              <Button width={"sm"} type="submit">
+              <Button
+                backgroundColor={"midnightblue"}
+                width={"sm"}
+                type="submit"
+              >
                 Login
               </Button>
               <Text sm={5}>{err}</Text>
